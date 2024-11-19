@@ -1,0 +1,19 @@
+/* App Styles */
+.App {
+    display: flex;
+}
+
+
+/* Projects Column Styles */
+.projCol {
+    background-color: blue;
+    width: 80vw;
+}
+
+
+/* Developer Column Styles */
+.devCol {
+    background-color: red;
+    width: 20vw;
+}
+

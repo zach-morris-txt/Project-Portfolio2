@@ -1,3 +1,12 @@
+/* Global Styles */
+* {
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+
+
 /* App Styles */
 .App {
     display: flex;
@@ -13,7 +22,18 @@
 
 /* Developer Column Styles */
 .devCol {
-    background-color: red;
+    background-color: coral;
     width: 20vw;
+    height: 100vh;
 }
-
+.portfolioHeadIMG {
+    width: 14vw;
+    border: 5px white solid;
+}
+.skillIconList {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skillIcon {
+    margin: 3px;;
+}

@@ -4,10 +4,22 @@ import '../App.css';
 function ProjCol() {
   return (
     <div className="projCol">
-        <h3>Freelance</h3>
-        <h3>Personal</h3>
-        <h3>Planned</h3>
-        <h3>Study</h3>
+      <div class="projColContent">
+        <div class="projNav">
+          <h2>Projects</h2>
+          <div class="navButtons">
+            <button class="navButton">Freelance</button>
+            <button class="navButton">Personal</button>
+            <button class="navButton">Planned</button>
+            <button class="navButton">Study</button>
+          </div>
+        </div>
+        <div class="projCards">
+
+          {/* {for i in ARRAY NAME JSX} */}
+          
+        </div>
+      </div>
     </div>
   );
 }

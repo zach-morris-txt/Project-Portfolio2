@@ -25,6 +25,7 @@ li {
     width: 50vw;
     height: 97vh;
     background-color: aliceblue;
+    overflow: scroll;
 }
 .projNav {
     display: flex;
@@ -45,9 +46,24 @@ li {
 .projCards {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .projCard {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+
+    width: 14vw; 
+    height: 20vh;
     margin: 1vw;
+    background-color: orange;
+    border-radius: 2vw;
+}
+.cardLinks {
+    display: flex;
+}
+.cardLink {
+    margin: 0vw 1vw;
 }
 
 

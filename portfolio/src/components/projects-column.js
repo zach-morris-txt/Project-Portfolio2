@@ -21,8 +21,10 @@ function ProjCol() {
               <p key={index}>{project.name}</p>
               <p key={index}>{project.img}</p>
               <p key={index}>{project.description}</p>
-              <p key={index}>{project.link1}</p>
-              <p key={index}>{project.link2}</p>
+              <div class="cardLinks">
+                <p key={index} class="cardLink">{project.link1}</p>
+                <p key={index} class="cardLink">{project.link2}</p>
+              </div>
             </div>
           ))}
         </div>

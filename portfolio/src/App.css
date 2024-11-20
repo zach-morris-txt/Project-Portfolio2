@@ -16,23 +16,43 @@ li {
 /* Projects Column Styles */
 .projCol {
     background-color: blue;
-    width: 80vw;
+    width: 75vw;
 }
 
 
 /* Developer Column Styles */
 .devCol {
-    background-color: coral;
-    width: 20vw;
+    background-color: #fad8d8;
+    width: 25vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.devColContent {
+    margin: 1vw;
+    border: 2px black solid;
+}
+.devContentTop {
+    display: flex;
+    justify-content: space-between;
+}
+.devContentTopLeft {
+    width: 12vw;
 }
 .portfolioHeadIMG {
-    width: 14vw;
+    width: 10vw;
     border: 5px white solid;
+}
+.devContentBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .skillIconList {
     display: flex;
     flex-wrap: wrap;
+    margin: 1vw;
+    border: 3px red solid;
 }
 .skillIcon {
     margin: 3px;;

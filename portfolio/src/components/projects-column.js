@@ -1,4 +1,5 @@
 import '../App.css';
+import projectDataArray from '../assets/project-data.js'
 
 
 function ProjCol() {
@@ -15,9 +16,15 @@ function ProjCol() {
           </div>
         </div>
         <div class="projCards">
-
-          {/* {for i in ARRAY NAME JSX} */}
-          
+          {projectDataArray.map((project, index) => (
+            <div class="projCard">
+              <p key={index}>{project.name}</p>
+              <p key={index}>{project.img}</p>
+              <p key={index}>{project.description}</p>
+              <p key={index}>{project.link1}</p>
+              <p key={index}>{project.link2}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>

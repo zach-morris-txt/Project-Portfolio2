@@ -25,13 +25,12 @@ li {
     width: 50vw;
     height: 97vh;
     background-color: aliceblue;
-    display: flex;
-    justify-content: center;
 }
 .projNav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50vw;
     background-color: aliceblue;
 
 }
@@ -42,6 +41,13 @@ li {
     border: none;
     text-decoration: underline;
     font-size: 1.3em;
+}
+.projCards {
+    display: flex;
+    justify-content: center;
+}
+.projCard {
+    margin: 1vw;
 }
 
 
